@@ -10,7 +10,7 @@ import VueGtag from 'vue-gtag'
  *
  * @see https://support.google.com/googleapi/answer/6158849
  */
-const GOOGLE_OAUTH2_CLIENT_ID = 'TODO'
+const GOOGLE_OAUTH2_CLIENT_ID = '912773918968-mc3jj0m09k687dh5u846q3qcubpe1keh.apps.googleusercontent.com'
 
 /**
  * Optional Google Analytics ID
