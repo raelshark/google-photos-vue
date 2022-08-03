@@ -42,28 +42,6 @@ export class GooglePhotos {
                 .then(response => (
                   console.log(`size: ${response.headers['content-length']}`)
                 ));
-
-              // http.request(url, { method: 'HEAD' }, (res: any) => {
-              //   console.log(`file size: ${res.headers['content-length']}`);
-              // }).on('error', (err: any) => {
-              //   console.error(err);
-              // }).end();
-
-              // bot.on("message", function(message) {
-              //   console.log(message.content);
-              // });
-
-              // baseUrl = "https://lh3.googleusercontent.com/lr/AF..."
-              // # just the thumbnail's size
-              // requests.head(baseUrl,allow_redirects=True).headers['content-length']
-              // # the entire video's size
-              // requests.head(baseUrl + "=dv",allow_redirects=True).headers['content-length']
-
-              // http.request('http://example.com', { method: 'HEAD' }, (res) => {
-              //   console.log(res.statusCode);
-              // }).on('error', (err) => {
-              //   console.error(err);
-              // }).end();
             })
           });
         });
